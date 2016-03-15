@@ -14,8 +14,8 @@ import javax.ws.rs.Path;
 @Path("node")
 public class NodeResource {
 
-    private static final String BASE_URL = "http://private-b304a-ssedemo.apiary-mock.com";
-    private static final String NOTIFY_STORE_URI = "/store/100";
+    private static final String BASE_URL = "http://localhost:9090";
+    private static final String NOTIFY_STORE_URI = "/push-event";
 
 
     @GET

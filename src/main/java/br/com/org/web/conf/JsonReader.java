@@ -51,6 +51,7 @@ public class JsonReader implements MessageBodyReader<Object> {
         
         String line = breader.readLine();
         StringBuilder builder = new StringBuilder();
+
         while (line != null) {
             builder.append(line).append("\n");
             line = breader.readLine();
